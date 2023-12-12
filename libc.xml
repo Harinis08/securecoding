@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.12.0"/>
+    <errors>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="10"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;conio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;conio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="11"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="12"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="13"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;windows.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;windows.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;utility.h&amp;quot; not found." verbose="Include file: &amp;quot;utility.h&amp;quot; not found.">
+            <location file="code1.c" line="1144"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="1145"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="1146"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="1147"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;unistd.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;unistd.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="1148"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdio.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="1263"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="1264"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdlib.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="1265"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;utility.h&amp;quot; not found." verbose="Include file: &amp;quot;utility.h&amp;quot; not found.">
+            <location file="code1.c" line="1266"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdbool.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdbool.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.c" line="1267"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;authentication.h&amp;quot; not found." verbose="Include file: &amp;quot;authentication.h&amp;quot; not found.">
+            <location file="code1.c" line="1268"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="code1.c">
+            <location file="code1.c" line="811"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="code1.c">
+            <location file="code1.c" line="1059"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="298"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="301"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="357"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="374"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="377"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="380"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="495"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="570"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="651"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="654"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="657"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="721"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="745"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="748"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="751"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="1010"/>
+        </error>
+        <error id="getsCalled" severity="warning" msg="Obsolete function &amp;#039;gets&amp;#039; called. It is recommended to use &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." verbose="The obsolete function &amp;#039;gets&amp;#039; is called. With &amp;#039;gets&amp;#039; you&amp;#039;ll get a buffer overrun if the input data exceeds the size of the buffer. It is recommended to use the functions &amp;#039;fgets&amp;#039; or &amp;#039;gets_s&amp;#039; instead." cwe="477" file0="code1.c">
+            <location file="code1.c" line="1080"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;bookFound!=5&amp;#039; is always false" verbose="Condition &amp;#039;bookFound!=5&amp;#039; is always false" cwe="570" file0="code1.c">
+            <location file="code1.c" line="893" info="Condition &amp;#039;bookFound!=5&amp;#039; is always false"/>
+            <location file="code1.c" line="891" info="Assignment &amp;#039;bookFound=searchBook(3)&amp;#039;, assigned value is 5"/>
+            <location file="code1.c" line="891" info="Calling function &amp;#039;searchBook&amp;#039; returns 5"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;bookFound==5&amp;#039; is always true" verbose="Condition &amp;#039;bookFound==5&amp;#039; is always true" cwe="571" file0="code1.c">
+            <location file="code1.c" line="900" info="Condition &amp;#039;bookFound==5&amp;#039; is always true"/>
+            <location file="code1.c" line="891" info="Assignment &amp;#039;bookFound=searchBook(3)&amp;#039;, assigned value is 5"/>
+            <location file="code1.c" line="891" info="Calling function &amp;#039;searchBook&amp;#039; returns 5"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;bookSearcher==3&amp;#039; is always true" verbose="Condition &amp;#039;bookSearcher==3&amp;#039; is always true" cwe="571" file0="code1.c">
+            <location file="code1.c" line="1056" info="Condition &amp;#039;bookSearcher==3&amp;#039; is always true"/>
+            <location file="code1.c" line="1050" info="Assuming that condition &amp;#039;bookSearcher!=3&amp;#039; is not redundant"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="59"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="98"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="120"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="132"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="153"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="172"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="211"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="230"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="270"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="322"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="347"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="359"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="400"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="427"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="437"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="485"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="532"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="560"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="591"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="641"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="659"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="678"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="706"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="722"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="753"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="780"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="818"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="867"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="888"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="916"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="959"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="979"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="999"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="1043"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="1067"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="1082"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="1109"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="1471"/>
+        </error>
+        <error id="fflushOnInputStream" severity="portability" msg="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." verbose="fflush() called on input stream &amp;#039;stdin&amp;#039; may result in undefined behaviour on non-linux systems." cwe="398" file0="code1.c">
+            <location file="code1.c" line="1474"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="364"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="416"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="449"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="499"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="575"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="599"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="732"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="796"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="830"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="970"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1014"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1087"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1125"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1179"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1182"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1185"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="sscanf() without field width limits can crash with huge input data." verbose="sscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1304"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1353"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1355"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1363"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1413"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1420"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1431"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1473"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="scanf() without field width limits can crash with huge input data." verbose="scanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1477"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1486"/>
+        </error>
+        <error id="invalidscanf" severity="warning" msg="fscanf() without field width limits can crash with huge input data." verbose="fscanf() without field width limits can crash with huge input data. Add a field width specifier to fix this problem.&#10;&#10;Sample program that can crash:&#10;&#10;#include &amp;lt;stdio.h&amp;gt;&#10;int main()&#10;{&#10;    char c[5];&#10;    scanf(&amp;quot;%s&amp;quot;, c);&#10;    return 0;&#10;}&#10;&#10;Typing in 5 or more characters may make the program crash. The correct usage here is &amp;#039;scanf(&amp;quot;%4s&amp;quot;, c);&amp;#039;, as the maximum field width does not include the terminating null byte.&#10;Source: http://linux.die.net/man/3/scanf&#10;Source: http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/libkern/stdio/scanf.c" cwe="119" file0="code1.c">
+            <location file="code1.c" line="1506"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;pF!=NULL&amp;#039; is redundant or there is possible null pointer dereference: pF." verbose="Either the condition &amp;#039;pF!=NULL&amp;#039; is redundant or there is possible null pointer dereference: pF." cwe="476" file0="code1.c">
+            <location file="code1.c" line="320" info="Null pointer dereference"/>
+            <location file="code1.c" line="295" info="Assuming that condition &amp;#039;pF!=NULL&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;pF!=NULL&amp;#039; is redundant or there is possible null pointer dereference: pF." verbose="Either the condition &amp;#039;pF!=NULL&amp;#039; is redundant or there is possible null pointer dereference: pF." cwe="476" file0="code1.c">
+            <location file="code1.c" line="676" info="Null pointer dereference"/>
+            <location file="code1.c" line="648" info="Assuming that condition &amp;#039;pF!=NULL&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;pF!=NULL&amp;#039; is redundant or there is possible null pointer dereference: pF." verbose="Either the condition &amp;#039;pF!=NULL&amp;#039; is redundant or there is possible null pointer dereference: pF." cwe="476" file0="code1.c">
+            <location file="code1.c" line="939" info="Null pointer dereference"/>
+            <location file="code1.c" line="930" info="Assuming that condition &amp;#039;pF!=NULL&amp;#039; is not redundant"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;compare&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;compare&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="code1.c">
+            <location file="code1.c" line="1017" info="compare is overwritten"/>
+            <location file="code1.c" line="1016" info="compare is assigned"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &amp;#039;flag == 0&amp;#039; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="code1.c">
+            <location file="code1.c" line="607" info=""/>
+            <location file="code1.c" line="565" info="&amp;#039;flag&amp;#039; is assigned value &amp;#039;0&amp;#039; here."/>
+        </error>
+        <error id="duplicateExpressionTernary" severity="style" msg="Same expression in both branches of ternary operator." verbose="Finding the same expression in both branches of ternary operator is suspicious as the same code is executed regardless of the condition." cwe="398" file0="code1.c">
+            <location file="code1.c" line="1009"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;ch&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;ch&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="code1.c">
+            <location file="code1.c" line="64"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;compare&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;compare&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="code1.c">
+            <location file="code1.c" line="353"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;compare&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;compare&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="code1.c">
+            <location file="code1.c" line="566"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;compare&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;compare&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="code1.c">
+            <location file="code1.c" line="715"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;compare&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;compare&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="code1.c">
+            <location file="code1.c" line="1005"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;compare&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;compare&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="code1.c">
+            <location file="code1.c" line="1076"/>
+        </error>
+        <error id="unusedLabel" severity="style" msg="Label &amp;#039;label4&amp;#039; is not used." verbose="Label &amp;#039;label4&amp;#039; is not used." cwe="398" file0="code1.c">
+            <location file="code1.c" line="996"/>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &amp;#039;password&amp;#039; shadows outer function" verbose="Local variable &amp;#039;password&amp;#039; shadows outer function" cwe="398" file0="code1.c">
+            <location file="code1.c" line="1176" info="Shadow variable"/>
+            <location file="code1.c" line="22" info="Shadowed declaration"/>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &amp;#039;code&amp;#039; can be declared as const array" verbose="Variable &amp;#039;code&amp;#039; can be declared as const array" cwe="398" file0="code1.c">
+            <location file="code1.c" line="62"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: balance" verbose="Unused variable: balance" cwe="563" file0="code1.c">
+            <location file="code1.c" line="291"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: name1" verbose="Unused variable: name1" cwe="563" file0="code1.c">
+            <location file="code1.c" line="1072"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: author1" verbose="Unused variable: author1" cwe="563" file0="code1.c">
+            <location file="code1.c" line="1072"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: publisher1" verbose="Unused variable: publisher1" cwe="563" file0="code1.c">
+            <location file="code1.c" line="1072"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: bookid1" verbose="Unused variable: bookid1" cwe="563" file0="code1.c">
+            <location file="code1.c" line="1073"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: quantity1" verbose="Unused variable: quantity1" cwe="563" file0="code1.c">
+            <location file="code1.c" line="1073"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;savedOffset&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;savedOffset&amp;#039; is assigned a value that is never used." cwe="563" file0="code1.c">
+            <location file="code1.c" line="1514"/>
+        </error>
+    </errors>
+</results>
